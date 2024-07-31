@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.navbar .text-colored {
+    background-color: #ec0707;
+}
+#cabecalho {
+    background-color: rgb(26, 27, 19);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #1e2e14;
+    color: #f50303;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{ /*o hover é para parar a troca de cor do h1*/
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: #293b18;
+}
+
+.section-title {
+    font-family: "Pacifico", cursive;
+}
+
+#sobre-nossa-igreja, #eventos,
+#fale-conosco, #nossas-programacoes {
+    background-color: #c3cac3;
+}
+
+.text-colored,
+span{
+    color: #ff0000;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #fd0000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ff0000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
